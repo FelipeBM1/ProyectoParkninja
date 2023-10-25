@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/backgroundImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nombreApp"
+        android:layout_centerHorizontal="true"
+        android:textSize="70sp"
+        android:layout_marginVertical="280dp"
+        android:textColor="@color/blanco"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="570dp"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/correoLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/digiteCorreoEdit"
+            android:textSize="20sp"
+            android:textColor="@color/negro"/>
+        <EditText
+            android:id="@+id/contreseñaLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/digiteContraseñaEdit"
+            android:textSize="20sp"
+            android:textColor="@color/negro"/>
+
+        <Button
+            android:id="@+id/botonIngresar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/negro"
+            android:text="Ingresar"
+            android:textColor="@color/blanco"
+            android:textSize="30sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="¿No tienes cuenta?"
+                />
+
+            <Button
+                android:id="@+id/botonRegistrate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/transparente"
+                android:text="Registrate"
+                android:textColor="@color/azul" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="nombreApp">ParKninja</string>
+    <string name="login"> Iniciar sesión</string>
+    <string name="registro"> Registrarse</string>
+    <string name="digiteNombre">Nombre</string>
+    <string name="digiteNombreEdit">Escribe tu nombre aquí</string>
+    <string name="digiteApellido">Apellido</string>
+    <string name="digiteApellidoEdit">Escribe tu apellido aquí</string>
+    <string name="digiteContraseña">Contraseña</string>
+    <string name="digiteContraseñaEdit">Escribe tu Contraseña aquí</string>
+    <string name="digiteCorreo">Correo</string>
+    <string name="digiteCorreoEdit">Escribe tu Correo aquí</string>
+    <string name="digitePlaca">Placa</string>
+    <string name="digitePlacaEdit">Escribe tu placa aquí</string>
+</resources>

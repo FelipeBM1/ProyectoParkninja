@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InicioActivity"
+    android:background="#CDCFD2">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginVertical="40dp">
+
+        <EditText
+            android:id="@+id/nombreEditText"
+            android:layout_width="292dp"
+            android:layout_height="match_parent"
+            android:background="@color/blanco"
+            android:hint="Ingresar ubicación"
+            android:textSize="20sp" />
+
+        <ImageButton
+            android:id="@+id/imgBtnBuscar"
+            android:layout_width="63dp"
+            android:layout_height="56dp"
+            android:background="@color/botones"
+            android:contentDescription="botondebusqueda"
+            app:srcCompat="@drawable/buscar" />
+
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/imgBtnfotoPerfil"
+        android:layout_width="176dp"
+        android:layout_height="138dp"
+        android:layout_marginTop="300dp"
+        android:layout_centerHorizontal="true"
+        android:background="#FFFFFF"
+        app:srcCompat="@drawable/fotoperfil" />
+
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginVertical="500dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/subirFotoBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Subir imagen" />
+
+        <Button
+            android:id="@+id/tomarFotoBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tomar foto" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
